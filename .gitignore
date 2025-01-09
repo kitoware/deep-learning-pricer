@@ -1,0 +1,27 @@
+# Data files
+*.csv
+*.xlsx
+*.hdf5
+*.json
+*.db
+
+# Model weights and artifacts
+/models/
+*.pt
+*.h5
+*.onnx
+*.joblib
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.*
+
+# Ignore all Python files
+*.py
+
+# But keep one specific Python file
+!scripts/predict_price.py
+!scripts/generate_data.py
